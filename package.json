@@ -1,0 +1,23 @@
+{
+  "name": "telegram-personal-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "auth": "tsx src/auth.ts",
+    "fetch": "tsx src/fetch-data.ts",
+    "list-chats": "tsx src/list-chats.ts",
+    "export": "tsx src/export-chat.ts",
+    "test-connection": "tsx src/test-connection.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "input": "^1.0.1",
+    "telegram": "^2.26.22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
